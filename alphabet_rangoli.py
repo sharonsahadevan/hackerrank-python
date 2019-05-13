@@ -1,8 +1,7 @@
 import string
 
 
-def main():
-    N = int(input())
+def print_rangoli(N):
 
     alphabet = string.ascii_lowercase[:N]
 
@@ -18,4 +17,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    print_rangoli(n)
