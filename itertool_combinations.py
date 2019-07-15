@@ -14,11 +14,3 @@ if __name__ == '__main__':
     word =  inputWord[0]
     value = int(inputWord[1])
     combination(word,value)
-    
-  
-
-
-
-
-
-
